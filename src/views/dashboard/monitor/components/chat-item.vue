@@ -2,7 +2,7 @@
   <div :class="['chat-item', itemData.isCollect ? 'chat-item-collected' : '']">
     <a-space :size="4" direction="vertical" fill>
       <a-typography-text type="warning">
-        {{ itemData.username }}
+        {{ itemData.account }}
       </a-typography-text>
       <a-typography-text>{{ itemData.content }}</a-typography-text>
       <div class="chat-item-footer">
